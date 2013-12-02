@@ -1,16 +1,17 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 
-AUTHOR = u'Robert Pallas'
-SITENAME = u'Boblog'
+AUTHOR = 'Robert Pallas'
+SITENAME = 'Boblog'
+SITESUBTITLE = 'Robert Pallas'
 SITEURL = 'http://robertpallas.github.io/boblog'
 
-GITHUB_URL = 'http://github.com/robertpallas/'
+#GITHUB_URL = 'http://github.com/robertpallas/'
+GOOGLE_ANALYTICS = 'UA-46132206-1'
+DISQUS_SITENAME = 'boblogghp'
 
 TIMEZONE = 'Europe/Helsinki'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
