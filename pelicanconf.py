@@ -2,7 +2,7 @@
 
 AUTHOR = 'Robert Pallas'
 SITENAME = 'Boblog'
-SITESUBTITLE = 'Robert Pallas'
+SITESUBTITLE = 'Robert Pallas personal site'
 SITEURL = 'http://robertpallas.github.io/boblog'
 
 #GITHUB_URL = 'http://github.com/robertpallas/'
