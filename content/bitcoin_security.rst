@@ -26,7 +26,7 @@ weaknesses at first glance are actually part of clever bigger picture design. Si
 summer 2012 much has changed in Bitcoins ecosystem and services built on top of it have become way more professional. At the same time the strong security
 discussed in the paper has remained constant for Bitcoin itself and will continue at that in foreseeable future.
 
-Another earlier paper I wrote analysis Bitcoin by fitting its properties into model called Financial Cryptography in 7 Layers by Ian Grigg.
+Another earlier paper I wrote analysis Bitcoin by fitting its properties into model called `Financial Cryptography in 7 Layers <http://iang.org/papers/fc7.html>`_ by Ian Grigg.
 Although I failed to answer what gives Bitcoin value (in short: growing demand for currency that gives so many great properties as medium of exchange and
 value storage combined with its possible wide adoption in future) and some of the points are outdated it may be of interest for fitting Bitcoin
 into a framework that was created a decade before it to measure possible success of financial crypto-systems and Bitcoin easily comes up successful.
