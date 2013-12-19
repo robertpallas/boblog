@@ -29,6 +29,6 @@ Tech stack
   than using Angular because the API is simple with 1 endpoint and 3 methods, developing in Laravel is effortless
   and I have good background in writing apps on top of Codeigniter and Zend.
 * MySQL - I already had the data from earlier version of the same application and with Laravels query builder being quite
-  awesome the only real SQL queries I had to write was for building a view for getting athletes records displayed.
+  awesome the only real SQL query I had to write was for building a view for getting athletes records displayed.
 * Twitter Bootstrap - I chose to use a shortcut for design. Modifications to style sheets are minimal. To add some sharp
   interaction capabilities I added `AngularStrap <http://mgcrea.github.io/angular-strap/>`_.
