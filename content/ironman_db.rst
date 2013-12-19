@@ -11,7 +11,7 @@ Ironman DB
 `Ironman DB <http://edetabel.tri.ee/>`_ is a small app for tracking Estonians long distance triathlon results. Data is
 added by the users so one of the main requirements was to make this process as intuitive and fast as possible. This was
 achieved by using autocomplete fields, helpful data selectors and modern error handling. Filtering
-data allows for amusing rankings to be displayed and the site challenges Estonian athletes to push themselves to beat times
+data allows for amusing rankings to be displayed and the site challenges Estonian athletes to push themselves to beat the times
 their neighbours clocked last year. I released Ironman DB for Hawaii Ironman weekend in October 2013.
 
 Tech stack
