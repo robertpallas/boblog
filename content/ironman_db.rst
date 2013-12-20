@@ -25,7 +25,7 @@ Tech stack
   the framework that I can think of is rather poor official documentation. This can be overcome with extensive online resources
   collection that is listed in `jmcunningham's Github repo <https://github.com/jmcunningham/AngularJS-Learning>`_.
 * Laravel - I chose to use PHP for building light weight RESTful API for deployment reasons. Choice of Laravel was made to
-  test out the new hotness in market of PHP MVC frameworks. This was also a new experience for me but a lot less demanding
+  test out the new hotness in the market of PHP MVC frameworks. This was also a new experience for me but a lot less demanding
   than using Angular because the API is simple with 1 endpoint and 3 methods, developing in Laravel is effortless
   and I have good background in writing apps on top of Codeigniter and Zend.
 * MySQL - I already had the data from earlier version of the same application and with Laravels query builder being quite
