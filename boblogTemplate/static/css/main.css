@@ -145,6 +145,11 @@ aside, nav, article, figure {
 	display: block;
 }
 
+article {
+    padding-right: 5px;
+    text-align: justify;
+}
+
 /***** Layout *****/
 .body {clear: both; margin: 0 auto; width: 800px;}
 img.right, figure.right {float: right; margin: 0 0 2em 2em;}
