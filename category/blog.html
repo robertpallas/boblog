@@ -20,45 +20,70 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://robertpallas.github.io/boblog/ironman-db.html">Ironman DB</a></h1>
+                    <h1 class="entry-title"><a href="http://robertpallas.github.io/boblog/bitcoin-questions.html">Bitcoin Questions</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2014-01-22T18:30:00">
+                Wed 22 January 2014
+        </abbr>
+
+<p>tags: <a href="http://robertpallas.github.io/boblog/tag/bitcoin.html">bitcoin</a></p>
+</footer><!-- /.post-info --><p>Visited an introductory lecture on cryptocurrencies and got to thinking about several questions that people new to the topic raise.
+One thing that I gathered from the meeting is that Bitcoin as a system is very difficult to understand.
+Although the room was full of people with interest and at least some background in cryptocurrencies it felt that many of the attendees did not understand the topic due to its technical depth
+despite presenter doing a decent job explaining. So the first concern is <strong>how to make Bitcoin understandable to general population</strong>.
+To answer that lets look at some other questions like <strong>how is Bitcoin money</strong>, <strong>why is it interesting, useful or needed</strong> and
+<strong>why it might become positively disruptive technology</strong> first. Those points are best addressed by Erik Voorhees in his talk &quot;Role of Bitcoin as Money&quot;:
+<a class="reference external" href="http://evoorhees.blogspot.com/2013/05/bitcoin-2013-role-of-bitcoin-as-money.html">text</a> and <a class="reference external" href="http://youtu.be/H2YllvbJo6g">video</a>.
+This is possibly the best pro-Bitcoin presentation and it has no technical discussions. We have our answer to the first question:
+while preaching to a wider population we have to leave the cryptography as a black box and concentrate on beneficial properties such as decentralization that the system offers to end-users.</p>
+<p>Another interesting question is about <strong>competitors</strong> and <strong>why Bitcoin still has and will have an edge over</strong> them.
+First movers advantage, the network effect and already established infrastructure around it (exchanges, payment processors, shops, gambling, drugs, porn ...) are why I have not
+taken much interest in other similar cryptocurrencies. The hurdle for them is already too high to jump to get to the critical mass adoption to tackle Bitcoin.
+Only way to push Bitcoin away from the position of top peer-to-peer currency is by making a system that is way better and somehow attract people into using it instead of Bitcoin.
+While Bitcoin is not perfect it also does not have any major flaws which is especially important in terms of <a class="reference external" href="bitcoin-security.html">security</a>.
+Being good enough as a protocol and money at the same time will make it perfectly fit into the economic sphere once the
+infrastructure is matured to the point where even early pessimists have to stop neglecting it.</p>
+<p>Then we have a question about something that looks like a huge problem: <strong>does Bitcoin creation (mining) pointlessly waste humongous amounts of computer resources</strong>
+and should it not try computing something meaningful instead of brute-forcing numbers to produce hashes that create blocks of transactions and reward the finders?
+Very legitimate concern since Bitcoin network does more than 15 million gigahashes every second and the amount is exponentially growing (<a class="reference external" href="https://blockchain.info/charts/hash-rate">graph</a>).
+To put this into perspective my Macbook can do about 15 megahashes at the same time. So you could say that power that Bitcoin network puts out is comparable
+to the amount the whole human population would achieve if every female owned 2 and every man had 1 Macbook and all those machines would work to mine Bitcoins. Or if you compare
+floating point operations per second (FLOPS) then Bitcoin network would outperform top 500 supercomputers combined by factor of more than 200 (<a class="reference external" href="http://redd.it/1q15yf">src</a>).
+Those numbers are just here to make the hash-rate a bit more graspable. In reality Bitcoins are mined with specialized hardware that can not do any FLOPS or other
+calculations besides hashing specialized for Bitcoin and they are thus quite efficient in what they do. How is building, distributing and running them on electricity not a waste?
+Because this is also the fundament of Bitcoins security. Decentralized cryptocurrencies work on majority vote principle and if one wishes to disrupt the network they have to put out more than half of the
+computing power (known as 51% attack). I gladly pay the small fees that miners get for such a job.</p>
+<p><strong>Could governments or megacorporations not attack it?</strong> Of course they could - by putting up the needed 51+% they could in fact kill Bitcoin. They would probably produce special hardware and
+start hashing away. But Bitcoin is open-source and it already has around 100 competitors and the evil parties crazy-big investment (just look at the Macbooks they need to buy and power)
+into killing Bitcoin will not help them destroy the other cryptocurrencies with different hashing algorithms. Sure they could disrupt cryptocurrencies at a huge cost but co-operation and honest
+mining would make more sense</p>
+<p>All those questions and many others deserve their private post that may not come in the future.
+Thisone was intentionally sexist and unintentionally an Apple commercial. What other interesting questions would you like to be addressed?</p>
+<p>There are <a href="http://robertpallas.github.io/boblog/bitcoin-questions.html#disqus_thread">comments</a>.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://robertpallas.github.io/boblog/ironman-db.html" rel="bookmark"
+                           title="Permalink to Ironman DB">Ironman DB</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2013-12-19T17:30:00">
                 Thu 19 December 2013
         </abbr>
 
 <p>tags: <a href="http://robertpallas.github.io/boblog/tag/personal-projects.html">personal projects</a><a href="http://robertpallas.github.io/boblog/tag/angular.html">angular</a><a href="http://robertpallas.github.io/boblog/tag/laravel.html">laravel</a></p>
-</footer><!-- /.post-info --><p><a class="reference external" href="http://edetabel.tri.ee/">Ironman DB</a> is a small app for tracking Estonians long distance triathlon results. Data is
-added by the users so one of the main requirements was to make this process as intuitive and fast as possible. This was
-achieved by using autocomplete fields, helpful data selectors and modern error handling. Filtering
-data allows for amusing rankings to be displayed and the site challenges Estonian athletes to push themselves to beat the times
-their neighbours clocked last year. I released Ironman DB for Hawaii Ironman weekend in October 2013.</p>
-<div class="section" id="tech-stack">
-<h2>Tech stack</h2>
-<ul class="simple">
-<li>Angular JS - this project was the first time for me to use Angular and also the first to build an application that I
-would release to public with a full-blown Javascript framework under it. I did enjoy the experience and will most definitely be using
-Angular again. I also found it true that Angular is quite easy to get started but to use it to its full power you need some
-practise. Next time I would organize my code better from the get-go and take more advantage of directives. Directives are
-Angular way of extending HTML semantics with elements with custom behavior. They were a bit tricky to get started with because
-the whole concept was new to me but I saw their potential in code re-use and clean sources quite quickly. Only downside to
-the framework that I can think of is rather poor official documentation. This can be overcome with extensive online resources
-collection that is listed in <a class="reference external" href="https://github.com/jmcunningham/AngularJS-Learning">jmcunningham's Github repo</a>.</li>
-<li>Laravel - I chose to use PHP for building light weight RESTful API for deployment reasons. Choice of Laravel was made to
-test out the new hotness in the market of PHP MVC frameworks. This was also a new experience for me but a lot less demanding
-than using Angular because the API is simple with 1 endpoint and 3 methods, developing in Laravel is effortless
-and I have good background in writing apps on top of Codeigniter and Zend.</li>
-<li>MySQL - I already had the data from earlier version of the same application and with Laravels query builder being quite
-awesome the only real SQL query I had to write was for building a view for getting athletes records displayed.</li>
-<li>Twitter Bootstrap - I chose to use a shortcut for design. Modifications to style sheets are minimal. To add some sharp
-interaction capabilities I added <a class="reference external" href="http://mgcrea.github.io/angular-strap/">AngularStrap</a>.</li>
-</ul>
-</div>
-<p>There are <a href="http://robertpallas.github.io/boblog/ironman-db.html#disqus_thread">comments</a>.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</footer><!-- /.post-info -->                <p class="first last">Ironman DB project written with AngularJS and Laravel.</p>
+
+                <a class="readmore" href="http://robertpallas.github.io/boblog/ironman-db.html">read more</a>
+<p>There are <a href="http://robertpallas.github.io/boblog/ironman-db.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
