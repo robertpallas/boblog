@@ -11,7 +11,7 @@ JavaScript: The Good Parts
 
 JavaScript
 ----------
-In my quest to master the craft of programming I have committed to learn something new every few months. Some time ago I realized
+In my quest to master the craft of programming I have committed to learning something new every few months. Some time ago I realized
 that the JavaScript ecosystem has been booming and maturing with more and more noteworthy frameworks and libraries to look at. Projects
 like Ember and Angular make front-end development completely different from hacking the DOM with a list of jQuery modifications.
 To understand them one has to grasp a new philosophical approach to writing JavaScript and also realize what this programming language really offers. While on
@@ -34,7 +34,7 @@ The Bad
 * evil eval
 * with statement
 * type coercions on comparison statements
-* + adding and concatenating
+* '+' adding and concatenating
 * too many values evaluating to false
 
 The Good
@@ -57,7 +57,7 @@ or you think you know JavaScript but it regularly bites you and makes you believ
 If you are totally new to programming or JavaScript you are not ready since you have not formed your opinions on the topic
 yet and should add the book to your to-read-list
 to get back to it later. If you really are a guru then you have probably read it already or don't really have to. If you are not
-sure which way you fall watch his amazing `talk <http://youtu.be/hQVTIJBZook?t=2m22s>`_ on the topic first and then get the book.
+sure which way you fall watch the authors amazing `talk <http://youtu.be/hQVTIJBZook?t=2m22s>`_ on the topic first and then get the book.
 
 Having not read any other books on JavaScript I can not confirm that this is the best one but
 I am sure you are not going wrong if you pick it up.

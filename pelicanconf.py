@@ -25,9 +25,9 @@ TRANSLATION_FEED_ATOM = None
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-# will add after I join linkedIn ...
-#SOCIAL = (('Github', 'https://github.com/robertpallas'),
-#          ('Facebook', '#'),)
+SOCIAL = (('LinkedIn', 'http://www.linkedin.com/pub/robert-pallas/87/637/a42'),
+          ('Github', 'https://github.com/robertpallas'),
+          ('CodeSchool', 'https://www.codeschool.com/users/bobest'))
 
 DEFAULT_PAGINATION = False
 THEME = 'boblogTemplate'
